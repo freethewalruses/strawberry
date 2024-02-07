@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', serif; /* Change to a romantic cursive font */
+    background-color: #ddebff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    margin: 0;
+    font-size: 24px;
+    color: #4d67a8;
+}
+.hh{
+    font-weight:600;
+
+}
+.pp{
+
+    font-size: 32px;
+    font-style: regular;
+    font-weight: 600;
+}
+
+body
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image{
+    height: 280px;
+    border-radius: 16px;
+    
+}
+
+.buttons button {
+    background-color: #4d67a8;
+    color: #fff;
+    padding: 16px 72px;
+    border: none;
+    border-radius: 16px;
+    margin: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Poppins', serif; /* Change to a romantic cursive font */
+
+}
+
+
+.buttons button:hover {
+    background-color: #4d67a8;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.hidden-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.move {
+    animation: moveNoMessage 0.5s linear;
+}
+
+@keyframes moveNoMessage {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(30px, 30px); }
+    50% { transform: translate(-20px, -20px); }
+    75% { transform: translate(10px, 10px); }
+    100% { transform: translate(0, 0); }
+}
